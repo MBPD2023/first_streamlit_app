@@ -13,7 +13,7 @@ streamlit.text("🥑🍞 Avocado Teast")
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 #picklist for fruits
-streamlit.multiselector("Pick some fruits:", list(myfruits_list.index))
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 #display table
 streamlit.dataframe(my_fruit_list)
