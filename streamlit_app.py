@@ -25,7 +25,7 @@ streamlit.dataframe(fruits_to_show)
 #display new header
 streamlit.header("Fruityvice Fruit Advice!")
 
-fruityvice_response = rq.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = rq.get("https://fruityvice.com/api/fruit/" + "kiwi")
 #streamlit.text(fruityvice_response.json()) #writes data on to the screen
 
 # normalize the json-data
